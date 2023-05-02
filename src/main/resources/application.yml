@@ -30,5 +30,7 @@ eureka:
       defaultZone: http://34.64.69.238:8761/eureka
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    preferIpAddress: true
+    ip-address: 34.64.135.237
 
 
